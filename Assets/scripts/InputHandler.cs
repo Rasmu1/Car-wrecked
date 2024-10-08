@@ -15,5 +15,14 @@ public class InputHandler : MonoBehaviour
         InputVector = new Vector2(h, v);
 
         MousePosition = Input.mousePosition;
+        HandleShootInput();
+    }
+    void HandleShootInput()
+    {
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            // Shoot
+            PlayerGun.Instance.Shoot();
+        }
     }
 }
