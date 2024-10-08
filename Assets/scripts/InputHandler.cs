@@ -24,5 +24,11 @@ public class InputHandler : MonoBehaviour
             // Shoot
             PlayerGun.Instance.Shoot();
         }
+
+        if (Input.GetKey(KeyCode.Mouse1))
+        {
+            // super Shoot
+            PlayerGun.Instance.Shoot2();
+        }
     }
 }
