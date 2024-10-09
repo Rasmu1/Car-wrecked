@@ -42,6 +42,7 @@ public class Projectile : MonoBehaviour
         }
 
     }
+
     void EnemyHit()
     {
         //Destroy(this.gameObject);

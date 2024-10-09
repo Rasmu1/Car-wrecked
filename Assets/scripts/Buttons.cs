@@ -9,6 +9,10 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+    public void CreativeMode()
+    {
+        SceneManager.LoadScene("SampleScene 1");
+    }
     public void Quit()
     {
         Application.Quit();
