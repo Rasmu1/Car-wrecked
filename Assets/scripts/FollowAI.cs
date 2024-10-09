@@ -12,4 +12,10 @@ public class FollowAI : MonoBehaviour
         transform.LookAt(target);
         transform.Translate(Vector3.forward * 5 * Time.deltaTime);
     }
+
+
+    public void knock()
+    {
+        Debug.Log("knock knock");
+    }
 }

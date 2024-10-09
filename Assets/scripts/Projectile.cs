@@ -32,4 +32,18 @@ public class Projectile : MonoBehaviour
         }
         transform.Translate(Vector3.forward * projectileSpeed * Time.deltaTime);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.gameObject.CompareTag("Enemy"))
+        {
+            collision.transform.gameObject.GetComponent<FollowAI>().knock();
+            EnemyHit();
+        }
+
+    }
+    void EnemyHit()
+    {
+        //Destroy(this.gameObject);
+    }
 }

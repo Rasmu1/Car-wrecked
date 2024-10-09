@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4732a494cf5174ce7863e07d30de5edb
+guid: 881cd6568bd124adebff635cca68a445
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,67 +7,52 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCube1Mat
+      name: polySurface122_robot_Mesh_groupMat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCube2Mat
+      name: robot_Mesh_group_polySurface124Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCube3Mat
+      name: robot_Mesh_group_polySurface125Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder10Mat
+      name: robot_Mesh_group_polySurface126Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder1Mat
+      name: robot_Mesh_group_polySurface127Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder2Mat
+      name: robot_Mesh_group_polySurface128Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder3Mat
+      name: robot_Mesh_group_polySurface129Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder4Mat
+      name: robot_Mesh_group_polySurface130Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder5Mat
+      name: robot_Mesh_group_polySurface131Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pCylinder6Mat
-    second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pCylinder7Mat
-    second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pCylinder8Mat
-    second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pCylinder9Mat
+      name: robot_Mesh_group_polySurface132Mat
     second: {fileID: 2100000, guid: aa2a45af79d4548d1be0dba69813246e, type: 2}
   materials:
     materialImportMode: 2
