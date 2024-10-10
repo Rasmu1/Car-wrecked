@@ -35,6 +35,11 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("Credits");
         Time.timeScale = 1;
     }
+    public void ArenaMode1()
+    {
+        SceneManager.LoadScene("SampleScene 1");
+        Time.timeScale = 1;
+    }
     public void Quit()
     {
         Application.Quit();
