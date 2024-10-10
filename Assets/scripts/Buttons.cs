@@ -40,6 +40,16 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("SampleScene 1");
         Time.timeScale = 1;
     }
+    public void Tank()
+    {
+        SceneManager.LoadScene("Tank");
+        Time.timeScale = 1;
+    }
+    public void FlyHack()
+    {
+        SceneManager.LoadScene("FlyHack");
+        Time.timeScale = 1;
+    }
     public void Quit()
     {
         Application.Quit();

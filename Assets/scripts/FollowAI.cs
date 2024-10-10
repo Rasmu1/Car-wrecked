@@ -6,6 +6,7 @@ public class FollowAI : MonoBehaviour
 {
     public Transform target;
     public Transform myTransform;
+    AudioSource aud;
 
     private void Update()
     {
