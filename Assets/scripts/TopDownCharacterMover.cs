@@ -76,5 +76,6 @@ public class TopDownCharacterMover : MonoBehaviour
     public void dead()
     {
         Destroy(this.gameObject);
+        Time.timeScale = 0;
     }
 }
