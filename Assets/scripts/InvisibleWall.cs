@@ -11,6 +11,7 @@ public class InvisibleWall : MonoBehaviour
         if (collision.transform.gameObject.CompareTag("Enemy"))
         {
             score.AddScore(1);
+            collision.transform.gameObject.GetComponent<FollowAI>().dead();
         }
 
     }

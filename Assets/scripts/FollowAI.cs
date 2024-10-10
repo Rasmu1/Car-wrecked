@@ -13,9 +13,13 @@ public class FollowAI : MonoBehaviour
         transform.Translate(Vector3.forward * 5 * Time.deltaTime);
     }
 
-
     public void knock()
     {
         Debug.Log("knock knock");
+    }
+
+    public void dead()
+    {
+        Destroy(this.gameObject);
     }
 }

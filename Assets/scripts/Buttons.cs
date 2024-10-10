@@ -7,6 +7,10 @@ public class Buttons : MonoBehaviour
 {
     public void Play()
     {
+        SceneManager.LoadScene("PlayMode");
+    }
+    public void StartGame()
+    {
         SceneManager.LoadScene("SampleScene");
     }
     public void CreativeMode()
