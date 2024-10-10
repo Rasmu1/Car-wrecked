@@ -14,6 +14,11 @@ public class InvisibleWall : MonoBehaviour
             collision.transform.gameObject.GetComponent<FollowAI>().dead();
         }
 
+        if (collision.transform.gameObject.CompareTag("Player"))
+        {
+            collision.transform.gameObject.GetComponent<TopDownCharacterMover>().dead();
+        }
+
     }
     // Start is called before the first frame update
     void Start()

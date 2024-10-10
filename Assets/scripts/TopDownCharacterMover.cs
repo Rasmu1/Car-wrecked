@@ -72,4 +72,9 @@ public class TopDownCharacterMover : MonoBehaviour
         var rotation = Quaternion.LookRotation(movementDirection);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, RotationSpeed);
     }
+
+    public void dead()
+    {
+        Destroy(this.gameObject);
+    }
 }
