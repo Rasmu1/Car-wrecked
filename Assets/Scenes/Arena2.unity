@@ -3159,7 +3159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6859880295103767075, guid: 79f8c8c6cc7de4df0a861f955cfc5a63, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7103620406839830169, guid: 79f8c8c6cc7de4df0a861f955cfc5a63, type: 3}
       propertyPath: Camera
@@ -3174,6 +3174,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79f8c8c6cc7de4df0a861f955cfc5a63, type: 3}
+--- !u!4 &1772995525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6086861620350089369, guid: 79f8c8c6cc7de4df0a861f955cfc5a63, type: 3}
+  m_PrefabInstance: {fileID: 1772995524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1830861018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3839,6 +3844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot Heavy Tank (player)
       objectReference: {fileID: 0}
+    - target: {fileID: 1183797889343577209, guid: 7d0ee55ac6da2471e89aec5db46f5a2c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8524575266074031696, guid: 7d0ee55ac6da2471e89aec5db46f5a2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.3643
@@ -3884,11 +3893,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d0ee55ac6da2471e89aec5db46f5a2c, type: 3}
---- !u!4 &541049428602454995 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8524575266074031696, guid: 7d0ee55ac6da2471e89aec5db46f5a2c, type: 3}
-  m_PrefabInstance: {fileID: 441071592716776543}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1764070365618400859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3961,7 +3965,7 @@ PrefabInstance:
     - target: {fileID: 2999165679996055720, guid: 1ca68341e73d942cca4784aff8344356, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 541049428602454995}
+      objectReference: {fileID: 1772995525}
     - target: {fileID: 5863127206091914863, guid: 1ca68341e73d942cca4784aff8344356, type: 3}
       propertyPath: m_Name
       value: Robot Porcurpine (enemy)
@@ -4038,7 +4042,7 @@ PrefabInstance:
     - target: {fileID: 1657564158675695537, guid: 01aeb30be570a421fbaa0822c8ddd815, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 541049428602454995}
+      objectReference: {fileID: 1772995525}
     - target: {fileID: 4540663025694658912, guid: 01aeb30be570a421fbaa0822c8ddd815, type: 3}
       propertyPath: m_Name
       value: bot_saw (enemy)

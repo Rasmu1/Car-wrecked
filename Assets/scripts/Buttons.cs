@@ -50,6 +50,21 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("FlyHack");
         Time.timeScale = 1;
     }
+    public void Arena2()
+    {
+        SceneManager.LoadScene("Arena2");
+        Time.timeScale = 1;
+    }
+    public void FidgetSpinner()
+    {
+        SceneManager.LoadScene("FidgetSpinner");
+        Time.timeScale = 1;
+    }
+    public void Hardmode()
+    {
+        SceneManager.LoadScene("Hardmode");
+        Time.timeScale = 1;
+    }
     public void Quit()
     {
         Application.Quit();
