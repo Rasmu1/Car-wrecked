@@ -25,6 +25,11 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
     }
+    public void Restart()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     public void Quit()
     {
