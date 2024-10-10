@@ -17,7 +17,7 @@ public class Buttons : MonoBehaviour
     }
     public void CreativeMode()
     {
-        SceneManager.LoadScene("SampleScene 1");
+        SceneManager.LoadScene("CreativeMode");
         Time.timeScale = 1;
     }
     public void MainMenu()
